@@ -1,0 +1,19 @@
+[project]
+
+name = "rosetta-csv"
+dynamic = ["version"]
+requires-python = ">=3.9"
+
+dependencies = [
+  # e.g. "package1==6.0.0",
+]
+
+[project.scripts]
+rosetta_csv = "rosetta_csv.rosetta_csv:main"
+rosetta-csv = "rosetta_csv.rosetta_csv:main"
+
+[build-system]
+requires = ["setuptools>=70.0.0", "wheel", "setuptools_scm[toml]>=8.1.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]

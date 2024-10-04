@@ -1,0 +1,11 @@
+# requirements to run locally and for development.
+-r requirements.txt
+
+pdoc3==0.10.0
+pre-commit==3.7.1
+pip-upgrader==1.4.15
+pylint==3.1.0
+pytest==8.2.0
+setuptools==70.0.0
+setuptools_scm==8.1.0
+tox==4.15.0

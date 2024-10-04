@@ -4,7 +4,7 @@
 	 "validator": "http://csvlint.io/",
 	 "standard" : "http://dataprotocols.org/json-table-schema/",
     "fields": [
-        { 
+        {
             "name": "Object Type",
             "description": "The type of object we're describing in the row.",
             "type": "http://www.w3.org/2001/XMLSchema#string",

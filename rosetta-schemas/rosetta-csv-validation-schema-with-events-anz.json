@@ -4,7 +4,7 @@
 	 "validator": "http://csvlint.io/",
 	 "standard" : "http://dataprotocols.org/json-table-schema/",
     "fields": [
-        { 
+        {
             "name": "Object Type",
             "description": "The type of object we're describing in the row.",
             "type": "http://www.w3.org/2001/XMLSchema#string",
@@ -100,7 +100,7 @@
                 "required": false,
                 "pattern": "(^(DigitalTransfer)$|^$)"
             }
-        },   
+        },
         {
             "name": "Event Identifier Type",
             "description": "Type of event ID we're assigning. This will always be EXTERNAL in CSV",
@@ -219,7 +219,7 @@
             "constraints": {
                 "required": false
             }
-        },                
+        },
         {
             "name": "Revision Number",
             "description": "Version of the file to be uploaded.",
@@ -249,7 +249,7 @@
         },
         {
             "name": "Digital Original",
-            "description": "Specifiying whether this is a digital original or not (Born Digital vs. Digitised).",
+            "description": "Specifying whether this is a digital original or not (Born Digital vs. Digitised).",
             "type": "http://www.w3.org/2001/XMLSchema#string",
             "constraints": {
                 "required": false,
